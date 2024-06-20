@@ -78,7 +78,7 @@ nav .part2{
 
 #center1 h1{
     font-size: 3rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 #center1 p{
@@ -102,16 +102,25 @@ nav .part2{
     position: relative;
 }
 
-#center2 img{
+/* #center2 img{
     position: absolute;
     right: 0;
     height: 100%;
+} */
+
+#center2 img {
+    max-width: 70%;
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    display: block; /* Removes any default spacing issues */
+    margin: auto; /* Centers the image horizontally */
 }
+
 
 #section1bottom{
     height: 10%;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
