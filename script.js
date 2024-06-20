@@ -109,7 +109,7 @@ var tl2 = gsap.timeline({
         scrollTrigger:" .section2",
         scroller: "#main",
         // markers:true,
-        start: "bottom 30%",
+        start: "bottom 20%",
         end: "bottom 10",
         scrub:2
     }
