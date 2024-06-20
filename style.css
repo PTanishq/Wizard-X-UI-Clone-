@@ -189,7 +189,7 @@ nav .part2{
 
 .elem h2{
     padding: 1rem 1.5rem;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 .elem h3{
@@ -431,7 +431,7 @@ nav .part2{
     }
 
     #f1l p{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     #f1l button{
@@ -446,5 +446,19 @@ nav .part2{
         font-size: small;
         padding: 0;
         margin: 0;
+    }
+}
+
+
+/* because of a minor issue, for now I'm making the opacity 0 of the h3 in the element from screen size of minimun width 700 - 1200 px */
+@media(min-width:700px){
+    .container h3{
+        opacity: 0;
+    }
+}
+
+@media(min-width:1200px){
+    .container h3{
+        opacity: 1;
     }
 }
